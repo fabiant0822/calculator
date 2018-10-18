@@ -2,7 +2,7 @@ object Form1: TForm1
   Left = 199
   Top = 279
   Caption = 'Calculator'
-  ClientHeight = 409
+  ClientHeight = 455
   ClientWidth = 272
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -17,7 +17,7 @@ object Form1: TForm1
   object Btn7: TButton
     Tag = 7
     Left = 8
-    Top = 140
+    Top = 188
     Width = 60
     Height = 60
     Caption = '7'
@@ -33,7 +33,7 @@ object Form1: TForm1
   object Btn6: TButton
     Tag = 6
     Left = 140
-    Top = 206
+    Top = 254
     Width = 60
     Height = 60
     Caption = '6'
@@ -49,7 +49,7 @@ object Form1: TForm1
   object Btn5: TButton
     Tag = 5
     Left = 74
-    Top = 206
+    Top = 254
     Width = 60
     Height = 60
     Caption = '5'
@@ -65,7 +65,7 @@ object Form1: TForm1
   object Btn4: TButton
     Tag = 4
     Left = 8
-    Top = 206
+    Top = 254
     Width = 60
     Height = 60
     Caption = '4'
@@ -81,7 +81,7 @@ object Form1: TForm1
   object Btn3: TButton
     Tag = 3
     Left = 140
-    Top = 272
+    Top = 320
     Width = 60
     Height = 60
     Caption = '3'
@@ -97,7 +97,7 @@ object Form1: TForm1
   object Btn2: TButton
     Tag = 2
     Left = 74
-    Top = 272
+    Top = 320
     Width = 60
     Height = 60
     Caption = '2'
@@ -113,7 +113,7 @@ object Form1: TForm1
   object Btn1: TButton
     Tag = 1
     Left = 8
-    Top = 272
+    Top = 320
     Width = 60
     Height = 60
     Caption = '1'
@@ -128,7 +128,7 @@ object Form1: TForm1
   end
   object Btn0: TButton
     Left = 8
-    Top = 338
+    Top = 386
     Width = 60
     Height = 60
     Caption = '0'
@@ -144,7 +144,7 @@ object Form1: TForm1
   object Btn8: TButton
     Tag = 8
     Left = 74
-    Top = 140
+    Top = 188
     Width = 60
     Height = 60
     Caption = '8'
@@ -160,7 +160,7 @@ object Form1: TForm1
   object Btn9: TButton
     Tag = 9
     Left = 140
-    Top = 140
+    Top = 188
     Width = 60
     Height = 60
     Caption = '9'
@@ -175,7 +175,7 @@ object Form1: TForm1
   end
   object BtnPlus: TButton
     Left = 206
-    Top = 272
+    Top = 320
     Width = 60
     Height = 60
     Caption = '+'
@@ -190,7 +190,7 @@ object Form1: TForm1
   end
   object BtnMinus: TButton
     Left = 206
-    Top = 206
+    Top = 254
     Width = 60
     Height = 60
     Caption = '-'
@@ -205,7 +205,7 @@ object Form1: TForm1
   end
   object BtnMult: TButton
     Left = 206
-    Top = 140
+    Top = 188
     Width = 60
     Height = 60
     Caption = '*'
@@ -220,7 +220,7 @@ object Form1: TForm1
   end
   object BtnDiv: TButton
     Left = 206
-    Top = 74
+    Top = 122
     Width = 60
     Height = 60
     Caption = '/'
@@ -235,7 +235,7 @@ object Form1: TForm1
   end
   object BtnEq: TButton
     Left = 140
-    Top = 339
+    Top = 387
     Width = 126
     Height = 60
     Caption = '='
@@ -263,9 +263,9 @@ object Form1: TForm1
     TabOrder = 16
   end
   object BtnClear: TButton
-    Left = 8
-    Top = 74
-    Width = 192
+    Left = 140
+    Top = 122
+    Width = 60
     Height = 60
     Caption = 'Clear'
     Font.Charset = DEFAULT_CHARSET
@@ -279,7 +279,7 @@ object Form1: TForm1
   end
   object BtnDot: TButton
     Left = 74
-    Top = 338
+    Top = 386
     Width = 60
     Height = 60
     Caption = '.'
@@ -291,5 +291,49 @@ object Form1: TForm1
     ParentFont = False
     TabOrder = 17
     OnClick = BtnDotClick
+  end
+  object BtnBin: TButton
+    Left = 8
+    Top = 122
+    Width = 60
+    Height = 60
+    Caption = 'Bin'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Arial'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 18
+    OnClick = BtnBinClick
+  end
+  object BtnDec: TButton
+    Left = 74
+    Top = 122
+    Width = 60
+    Height = 60
+    Caption = 'Dec'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Arial'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 19
+    OnClick = BtnDecClick
+  end
+  object Result2: TEdit
+    Left = 8
+    Top = 74
+    Width = 258
+    Height = 42
+    AutoSize = False
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Arial'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 20
   end
 end

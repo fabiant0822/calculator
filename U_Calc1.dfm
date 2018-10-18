@@ -14,15 +14,18 @@ object Form1: TForm1
   OnActivate = FormActivate
   PixelsPerInch = 96
   TextHeight = 13
-  object LbBin: TLabel
+  object Label1: TLabel
     Left = 8
-    Top = 80
-    Width = 258
-    Height = 25
+    Top = 99
+    Width = 256
+    Height = 18
+    Caption = 
+      '|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |' +
+      '  |  |'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
-    Font.Height = -19
-    Font.Name = 'MS Sans Serif'
+    Font.Height = -16
+    Font.Name = 'Arial'
     Font.Style = []
     ParentFont = False
   end
@@ -333,5 +336,19 @@ object Form1: TForm1
     ParentFont = False
     TabOrder = 19
     OnClick = BtnDecClick
+  end
+  object Result2: TEdit
+    Left = 8
+    Top = 74
+    Width = 258
+    Height = 28
+    AutoSize = False
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Arial'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 20
   end
 end

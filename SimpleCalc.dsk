@@ -67,8 +67,8 @@ WelcomePageURL=bds:/default.htm
 [View1]
 CustomEditViewType=TEditView
 Module=C:\Users\ftamas\Documents\001\Delphi\Calc\U_Calc1.pas
-CursorX=28
-CursorY=19
+CursorX=48
+CursorY=199
 TopLine=1
 LeftCol=1
 Elisions=
@@ -251,8 +251,8 @@ SplitPos=111
 
 [PropInspDesignerSelection]
 ArrangeBy=Name
-SelectedItem=Action,
-ExpandedItems=Constraints=1,Font=1,ImageMargins=0,"LiveBindings Designer=0",Margins=0,StyleElements=0,Font.Style=1,LiveBindings=0,Touch=0,Anchors=0,BevelEdges=0,BorderIcons=0
+SelectedItem=Name,
+ExpandedItems=Border=0,BorderIcons=0,Fill=0,FormFactor=0,"LiveBindings Designer=0",Padding=0,Anchors=0,ImageMargins=0,LiveBindings=0,Margins=0,BevelEdges=0,Constraints=0,Font=1,Font.Style=1,StyleElements=0,Touch=0,GlassFrame=0
 
 [ClassBrowserTool]
 PercentageSizes=1

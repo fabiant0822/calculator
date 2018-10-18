@@ -27,9 +27,8 @@ type
     BtnClear: TButton;
     BtnDot: TButton;
     BtnBin: TButton;
+    LbBin: TLabel;
     BtnDec: TButton;
-    Result2: TEdit;
-    Label1: TLabel;
     procedure Btn0Click(Sender: TObject);
     procedure BtnDotClick(Sender: TObject);
     procedure BtnPlusClick(Sender: TObject);
@@ -72,7 +71,7 @@ Procedure TForm1.Reset;
     result.text:='';
     startnew:=false;
     lastop:=' ';
-    result2.text:='';
+    LbBin.Caption:='';
   end;
 
 Procedure TForm1.AddDigit(c:char);
@@ -131,7 +130,7 @@ begin Handleop('+'); end;
 
 procedure TForm1.BtnBinClick(Sender: TObject);
 begin
- result2.text:= DecToBinStr(StrToInt(Result.Text));
+ LbBin.Caption:= DecToBinStr(StrToInt(Result.Text));
 end;
 
 procedure TForm1.BtnMinusClick(Sender: TObject);
@@ -216,11 +215,11 @@ begin
  begin
  ShowMessage('Üres mezõ');
 Result.text :='';
-Result2.text:='';
+LbBin.Caption := '';
 Result.SetFocus;
 end
  else
-Result2.text:= IntToStr(BinToDec(Result.Text))
+LbBin.Caption:= IntToStr(BinToDec(Result.Text))+'.'
 end;
 
 end.

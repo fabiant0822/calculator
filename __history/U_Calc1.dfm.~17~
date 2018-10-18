@@ -14,19 +14,6 @@ object Form1: TForm1
   OnActivate = FormActivate
   PixelsPerInch = 96
   TextHeight = 13
-  object LbBin: TLabel
-    Left = 8
-    Top = 80
-    Width = 27
-    Height = 16
-    Caption = 'Bin:'
-    Font.Charset = DEFAULT_CHARSET
-    Font.Color = clWindowText
-    Font.Height = -13
-    Font.Name = 'MS Sans Serif'
-    Font.Style = [fsBold]
-    ParentFont = False
-  end
   object Btn7: TButton
     Tag = 7
     Left = 8
@@ -276,9 +263,9 @@ object Form1: TForm1
     TabOrder = 16
   end
   object BtnClear: TButton
-    Left = 74
+    Left = 140
     Top = 122
-    Width = 126
+    Width = 60
     Height = 60
     Caption = 'Clear'
     Font.Charset = DEFAULT_CHARSET
@@ -319,5 +306,34 @@ object Form1: TForm1
     ParentFont = False
     TabOrder = 18
     OnClick = BtnBinClick
+  end
+  object BtnDec: TButton
+    Left = 74
+    Top = 122
+    Width = 60
+    Height = 60
+    Caption = 'Dec'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Arial'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 19
+    OnClick = BtnDecClick
+  end
+  object Result2: TEdit
+    Left = 8
+    Top = 74
+    Width = 258
+    Height = 42
+    AutoSize = False
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Arial'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 20
   end
 end

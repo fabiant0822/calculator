@@ -1,19 +1,18 @@
 ﻿[Closed Files]
 File_0=TSourceModule,'C:\Users\ftamas\Documents\001\Delphi\Calc\U_Calc1.dfm',0,1,1,1,1,0,0,,
-File_1=TSourceModule,'C:\Users\ftamas\Documents\001\Delphi\Calc\U_Calc1.pas',0,1,1,1,1,0,0,,
-File_2=TSourceModule,'C:\Users\ftamas\Documents\001\Delphi\Calculadora-master\Principal.pas',0,1,1,1,1,0,0,,
-File_3=TSourceModule,'C:\Users\ftamas\Documents\001\Delphi\calculadora-delphi-master\UntMain.pas',0,1,1,1,1,0,0,,
-File_4=TSourceModule,'C:\Users\ftamas\Documents\001\Delphi\calculator-delphi-master\Unit1.pas',0,1,1,1,1,0,0,,
-File_5=TSourceModule,'C:\Users\ftamas\Documents\001\Delphi\GpSQLBuilder-master\Tests\GpSQLBuilder.DUnitX.pas',0,1,1,56,9,0,0,,
-File_6=TSourceModule,'C:\works\faktori\sajat\source\Libsource\UdmAlap.pas',0,1,1,1,1,0,0,,
-File_7=TSourceModule,'C:\works\faktori\sajat\source\MasterDatas\URafiAutomaticCLines.pas',0,1,1,1,1,0,0,,
-File_8=TSourceModule,'C:\works\faktori\sajat\source\MasterDatas\UAgreement.pas',0,1,4625,78,4645,0,0,,
-File_9=TSourceModule,'C:\works\faktori\sajat\source\MasterDatas\UdmAgreement.pas',0,1,553,1,572,0,0,,
-File_10=TSourceModule,'C:\works\faktori\sajat\source\MasterDatas\UMain.pas',0,1,1,6,1380,0,0,,
-File_11=TSourceModule,'C:\works\faktori\sajat\source\Libsource\UMainAlap.pas',0,1,1,1,1,0,0,,
-File_12=TSourceModule,'C:\works\faktori\sajat\source\MasterDatas\Udm.pas',0,1,1,1,1,0,0,,
-File_13=TSourceModule,'C:\works\faktori\sajat\source\MasterDatas\URafiPortFrame.pas',0,1,1,1,1,0,0,,
-File_14=TSourceModule,'C:\works\faktori\sajat\source\MasterDatas\ULimit_DmCLine.pas',0,1,1,1,1,0,0,,
+File_1=TSourceModule,'C:\Users\ftamas\Documents\001\Delphi\Calculadora-master\Principal.pas',0,1,1,1,1,0,0,,
+File_2=TSourceModule,'C:\Users\ftamas\Documents\001\Delphi\calculadora-delphi-master\UntMain.pas',0,1,1,1,1,0,0,,
+File_3=TSourceModule,'C:\Users\ftamas\Documents\001\Delphi\calculator-delphi-master\Unit1.pas',0,1,1,1,1,0,0,,
+File_4=TSourceModule,'C:\Users\ftamas\Documents\001\Delphi\GpSQLBuilder-master\Tests\GpSQLBuilder.DUnitX.pas',0,1,1,56,9,0,0,,
+File_5=TSourceModule,'C:\works\faktori\sajat\source\Libsource\UdmAlap.pas',0,1,1,1,1,0,0,,
+File_6=TSourceModule,'C:\works\faktori\sajat\source\MasterDatas\URafiAutomaticCLines.pas',0,1,1,1,1,0,0,,
+File_7=TSourceModule,'C:\works\faktori\sajat\source\MasterDatas\UAgreement.pas',0,1,4625,78,4645,0,0,,
+File_8=TSourceModule,'C:\works\faktori\sajat\source\MasterDatas\UdmAgreement.pas',0,1,553,1,572,0,0,,
+File_9=TSourceModule,'C:\works\faktori\sajat\source\MasterDatas\UMain.pas',0,1,1,6,1380,0,0,,
+File_10=TSourceModule,'C:\works\faktori\sajat\source\Libsource\UMainAlap.pas',0,1,1,1,1,0,0,,
+File_11=TSourceModule,'C:\works\faktori\sajat\source\MasterDatas\Udm.pas',0,1,1,1,1,0,0,,
+File_12=TSourceModule,'C:\works\faktori\sajat\source\MasterDatas\URafiPortFrame.pas',0,1,1,1,1,0,0,,
+File_13=TSourceModule,'C:\works\faktori\sajat\source\MasterDatas\ULimit_DmCLine.pas',0,1,1,1,1,0,0,,
 
 [Modules]
 Module0=C:\Users\ftamas\Documents\001\Delphi\Calc\U_Calc1.pas
@@ -70,7 +69,7 @@ CustomEditViewType=TEditView
 Module=C:\Users\ftamas\Documents\001\Delphi\Calc\U_Calc1.pas
 CursorX=28
 CursorY=19
-TopLine=22
+TopLine=1
 LeftCol=1
 Elisions=
 Bookmarks=
@@ -252,8 +251,8 @@ SplitPos=111
 
 [PropInspDesignerSelection]
 ArrangeBy=Name
-SelectedItem=AutoSize,
-ExpandedItems=Constraints=1,Font=1,ImageMargins=0,"LiveBindings Designer=0",Margins=0,StyleElements=0,Font.Style=1,LiveBindings=0,Touch=0,Anchors=0,BevelEdges=0
+SelectedItem=Action,
+ExpandedItems=Constraints=1,Font=1,ImageMargins=0,"LiveBindings Designer=0",Margins=0,StyleElements=0,Font.Style=1,LiveBindings=0,Touch=0,Anchors=0,BevelEdges=0,BorderIcons=0
 
 [ClassBrowserTool]
 PercentageSizes=1

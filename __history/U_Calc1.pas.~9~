@@ -29,7 +29,6 @@ type
     BtnBin: TButton;
     BtnDec: TButton;
     Result2: TEdit;
-    Label1: TLabel;
     procedure Btn0Click(Sender: TObject);
     procedure BtnDotClick(Sender: TObject);
     procedure BtnPlusClick(Sender: TObject);
@@ -220,7 +219,7 @@ Result2.text:='';
 Result.SetFocus;
 end
  else
-Result2.text:= IntToStr(BinToDec(Result.Text))
+Result2.text:= IntToStr(BinToDec(Result.Text))+'.'
 end;
 
 end.

@@ -29,7 +29,6 @@ type
     BtnBin: TButton;
     BtnDec: TButton;
     Result2: TEdit;
-    Label1: TLabel;
     procedure Btn0Click(Sender: TObject);
     procedure BtnDotClick(Sender: TObject);
     procedure BtnPlusClick(Sender: TObject);
